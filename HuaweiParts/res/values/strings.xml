@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014-2017 The OmniROM Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- Titles and summaries -->
+    <string name="advanced_settings">Huawei Settings</string>
+    <string name="fp_gestures_title">Fingerprint Gestures</string>
+    <string name="fp_gestures_summary">Enable/Disable fingerprint navigation</string>
+    <string name="category_gestures_title">Gestures Options</string>
+    <string name="category_gestures_summary">Set actions for fingerprint gestures</string>
+    <string name="fp_gesture_title">Fingerprint scanner gestures</string>
+    <string name="touchscreen_title">TouchScreen</string>
+    <string name="high_touch_title">High Touch Sensitivity</string>
+    <string name="high_touch_summary">Allow to use touchscreen with gloves</string>
+    <string name="not_ready_summary">Resolving...</string>
+    <string name="resolve_failed_summary">Resolving app failed</string>
+    <!-- Actions -->
+    <string name="choose_app">Choose app</string>
+    <string name="disabled_entry">Disabled</string>
+    <string name="navigate_back">Back</string>
+    <string name="navigate_home">Home</string>
+    <string name="navigate_recent">Recent</string>
+    <string name="category_fp_tap_gesture">Fingerprint tap</string>
+    <string name="category_fp_long_press_gesture">Fingerprint long press</string>
+    <string name="category_fp_left_swipe_gesture">Fingerprint left swipe</string>
+    <string name="category_fp_right_swipe_gesture">Fingerprint right swipe</string>
+</resources>
