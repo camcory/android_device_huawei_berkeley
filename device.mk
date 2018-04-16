@@ -21,21 +21,6 @@ $(call inherit-product-if-exists, vendor/gapps/arm64/arm64-vendor.mk)
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
-ifeq ($(TARGET_PRODUCT),lineage_berkeley)
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage
-endif
-
-# Boot animation
-TARGET_SCREEN_HEIGHT := 2160
-TARGET_SCREEN_WIDTH := 1080
-
-# APN
-ifeq ($(TARGET_PRODUCT),aosp_berkeley)
-PRODUCT_COPY_FILES += \
-    device/sample/etc/apns-full-conf.xml:system/etc/apns-conf.xml
-endif
-
 # Device init scripts
 PRODUCT_PACKAGES += \
     init.kirin970.rc \
