@@ -18,6 +18,11 @@ include build/make/target/board/treble_common.mk
 
 DEVICE_PATH := device/huawei/berkeley
 
+# Kernel
+BOARD_KERNEL_IMAGE_NAME := Image
+TARGET_NO_KERNEL := false
+TARGET_PREBUILT_KERNEL := /dev/null
+
 # Platform
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
