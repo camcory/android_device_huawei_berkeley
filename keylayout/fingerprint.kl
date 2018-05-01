@@ -1,5 +1,5 @@
-key 28    HOME
-key 105   APP_SWITCH
+key 28    ASSIST
+key 105   BACK
 key 106   APP_SWITCH
 key 118   WAKEUP
-key 174   BACK
+key 174   HOME
